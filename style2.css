@@ -1,0 +1,39 @@
+.table{
+    width: 512px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.title-wins-left{
+    font-size: 40px;
+    padding-top: 40px;
+    color: #0e3b23;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.text-caption-wins{
+    max-width: 1100px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 35px;
+    text-indent: 50px;
+}
+
+#tc-gold{
+    background-color: #fffb2879;
+}
+
+#tc-silver{
+    background-color: #6161613b; 
+}
+
+#tc-bronze{
+    background-color: #533f2ec0; 
+}
+
+.table{
+    width: 1024px;
+}

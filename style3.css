@@ -1,0 +1,75 @@
+.block-person{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-top: 5em;
+    padding-bottom: 2.5em;
+    padding-left: 5em;
+    width: 100%;
+    height: auto;
+}
+
+.img-person{
+    display: block;
+    height: 512px;
+    width: 512px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 7px 7px 7px -6px #000000;
+}
+
+.img-person-ex{
+    display: block;
+    height: 506px;
+    width: 512px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 7px 7px 7px -6px #000000;
+}
+
+.yellow-player-name{
+    margin-left: 4rem;
+    font-weight: bolder;
+    color: #f9dd16;
+}
+
+.green-player-name{
+    margin-left: 4rem;
+    font-weight: bolder;
+    color: #0e3b23;
+}
+
+.player-desc{
+    margin-left: 2rem;
+    font-size: 20px;
+    max-width: 512px;
+    line-height: 35px;
+}
+
+.player-desc p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.caption-person{
+    max-width: 1074px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 35px;
+    text-indent: 50px;
+}
+
+.caption-person-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 5em;
+    width: 100%;
+    height: auto;
+}
+

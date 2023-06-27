@@ -1,0 +1,53 @@
+nav{
+    background-color: #0e133b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    padding-right: 35px;
+    margin: 0;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-nav:hover{
+    color: #5e71fd;
+}
+
+.btn-active{
+    color: #5e71fd;
+    border-radius: 12px;
+}
+
+.logos{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flag-logo{
+    width: 50px;
+}
+
+.main-logo{
+    color: #000;
+    font-size: 45px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.home-btn{
+    background: none;
+    border: none;
+    text-decoration: none;
+    filter: invert();
+}
